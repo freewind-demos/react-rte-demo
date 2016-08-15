@@ -1,9 +1,9 @@
-import MyStatefulEditor from './my-stateful-editor.jsx';
+import EditorPage from './components/editor-page.jsx';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
 ReactDOM.render(
-  <MyStatefulEditor />,
+  <EditorPage />,
   document.getElementById("content")
 );
 
